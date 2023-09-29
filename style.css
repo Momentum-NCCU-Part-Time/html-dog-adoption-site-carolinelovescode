@@ -1,5 +1,18 @@
+* html {
+  margin: 1;
+  padding: 1;
+  box-sizing: border-box;
+}
 html {
     background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
   }
-  
+  .pet {
+    color: brown;
+  }
+  .pet {
+    display: flex
+    height: 90vh
+    width: 50vw
+    backrground-color: lightgrey
+  }
