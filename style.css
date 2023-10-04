@@ -1,18 +1,81 @@
-* html {
-  margin: 1;
-  padding: 1;
+* .html {
+  margin: 400;
+  padding: 50;
   box-sizing: border-box;
 }
-html {
-    background-color: bisque;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .pet {
-    color: brown;
-  }
-  .pet {
-    display: flex
-    height: 90vh
-    width: 50vw
-    backrground-color: lightgrey
-  }
+.html {
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#title {
+  display: flex;
+  color: darkgreen;
+  background-color: beige;
+  font-size: 95px;
+  justify-content: center;
+  align-items: flex-end;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.menu {
+  color: white;
+  background-color: darkgreen;
+  float: inline-start;
+  text-align: center;
+  justify-content: left;
+  align-items: baseline;
+}
+.nav {
+  list-style-type: none;
+  display: inline;
+  margin: 25px;
+  padding: 1px;
+  width: 100%;
+}
+.side {
+  display: block;
+  background-color: beige;
+  font-display: block;
+  border: 25px;
+  border-style: solid;
+  border-color: beige;
+  box-sizing: border-box;
+  height: 325px;
+  width: 600px;
+  padding: 5;
+  margin: 5;
+  justify-content: left;
+  align-items: left;
+}
+#toes {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  font-display: block;
+  font-size: 75px;
+  text-align: center;
+  border: 30px;
+  width: 875px;
+  border-style: solid;
+  border-style: double;
+  justify-content: center;
+  align-items: center;
+}
+#link {
+  color: white;
+}
+Adopt .pet {
+}
+.pet {
+  color: white;
+  background-color: darkgreen;
+  display: grid;
+  border-style: solid;
+  border-radius: 10px;
+  width: 1080px;
+  height: 640px;
+}
